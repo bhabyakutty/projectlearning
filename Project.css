@@ -1,0 +1,92 @@
+body{background-image: url(https://www.greatbuyz.com/blog/wp-content/uploads/2018/07/Top-Washing-Machine-Brands.png);
+-ms-background-size:cover;
+-o-background-size:cover; 
+-moz-background-size:cover;
+-webkit-background-size:cover;}table{
+	border: 2px groove silver; width: 100%;
+color: darkblue; 
+padding-right: 20px;
+background-color: pink;
+margin:0;
+}
+.headcontainer img div{
+width: 15px;
+background-color: red; 
+height: 5px;
+}
+.imgcontainer button{text-align: center;color: white;
+	background-color: blue;
+	border: 0px none black;
+border-radius: 20px 20px 20px 20px;
+width: 14%;
+height: 50px;
+margin: 1%;
+padding-top: 5px;
+ }
+ .imgcontainer button:hover{background-color: yellow;color: black;cursor: pointer;
+}
+.imgcontainer div img{
+	width: 100%;
+	height: 70%;
+}
+.imgcontainer div button{
+	width: 35%;
+	text-align: center;
+}
+.imgcontainer div{
+	border: 1px green;
+	background-color: lightgreen;
+	width: 300px;
+	padding: 20px;
+	margin: 3%;
+	box-shadow: 3px 3px 10px 6px yellow;
+	border-radius: 20px;
+}
+.imgcontainer{
+
+	text-align: center;
+}
+.container div:hover{background-color: skyblue; color: white; cursor: pointer;
+}
+
+.flexproperties, .imgcontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.classfooter div{
+	width: 25%;
+}
+.classfooter{
+	background-color: pink;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding-left: 1%;
+	text-align: center;
+}
+
+
+
+@media only screen and (min-width:  320px) and (max-width: 767px){
+
+body{
+	background-color: green;
+}	
+
+.mycontainer{
+	flex-direction: column;
+}
+.mycontainer div{
+	width: 95%;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+body{
+	background-color: orange;
+}	
+}
